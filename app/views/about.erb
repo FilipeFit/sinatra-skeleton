@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About</title>
+</head>
+<body>
+  <h1>About</h1>
+  <p>About the Company</p>
+  <h2>More About us</h2>
+  <p>Mor information about the company</p>
+
+  <h2>
+    <%= "Hello " * 5 %>
+  </h2>
+
+  <% if(true) %>
+    <a href="#">Delete Everything</a>
+  <% end %>
+
+  <ul>
+    <% ["apple", "Orange", "Banana"].each do |fruit| %>
+      <li><%= fruit %></li>
+    <%end%>
+  </ul>
+</body>
+</html>

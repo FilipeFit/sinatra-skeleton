@@ -1,0 +1,14 @@
+<div class="panel panel-default">
+  
+<div class="panel-heading"></div>
+  <table class="table">
+    <th>Movies</th>
+    <% @movies.each do |movie| %>
+      <tr>
+        <td>Title<%= movie.title %></td>
+        <td>Description<%= movie.description %></td>
+        <td>Genre<%= movie.genre%></td>
+      </tr>
+    <%end%>
+  </table>
+</div>
