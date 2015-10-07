@@ -16,10 +16,12 @@ get '/login' do
 end
 
 get '/profile' do
+  @title = "Profile"
   erb :profile
 end
 
 get '/signup' do
+  @title = "signup"
   erb :signup
 end
 
