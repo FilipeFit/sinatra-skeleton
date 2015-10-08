@@ -18,7 +18,10 @@ GEM
     backports (3.6.6)
     bond (0.5.1)
     builder (3.2.2)
+    byebug (5.0.0)
+      columnize (= 0.9.0)
     coderay (1.1.0)
+    columnize (0.9.0)
     i18n (0.7.0)
     json (1.8.3)
     method_source (0.8.2)
@@ -28,6 +31,9 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    pry-byebug (3.2.0)
+      byebug (~> 5.0)
+      pry (~> 0.10)
     puma (2.14.0)
     rack (1.6.4)
     rack-protection (1.5.3)
@@ -77,6 +83,7 @@ PLATFORMS
 DEPENDENCIES
   activesupport
   pry
+  pry-byebug
   puma
   rake
   shotgun
